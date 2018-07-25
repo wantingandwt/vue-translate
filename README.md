@@ -1,21 +1,21 @@
-# translate
+# 在线翻译
 
 > A Vue.js project
 
-## Build Setup
+## 主要用到的技术有
 
 ``` bash
-# install dependencies
-npm install
+# vue2.js
+vue2.js中主要运用了组件（子传父，父传子）
 
-# serve with hot reload at localhost:8080
-npm run dev
+# webpack打包工具
 
-# build for production with minification
-npm run build
+# vue-resource  采用jsonp解决跨域问题
 
-# build for production and view the bundle analyzer report
-npm run build --report
+# 调用百度api实现在线翻译功能
+
+# MD5.js 加密
+
+
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
