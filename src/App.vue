@@ -1,9 +1,12 @@
 <template>
   <div id="app">
-    <h1>在线翻译</h1>
-	<h5>高效 / 快捷 / 方便</h5>
-	<Tranform v-on:formText="formTextto"></Tranform>
-	<Tranbody v-text="tranresult"></Tranbody>
+    <h1 class="app-index"><img src="./assets/logo.png"><br/>在线翻译</h1>
+		<h5>高效 / 快捷 / 方便</h5>
+		<Tranform v-on:formText="formTextto"></Tranform>
+		<Tranbody v-text="tranresult"></Tranbody>
+		<div class="footer">
+     技术支持：sedlice
+		</div>
   </div>
 </template>
 
@@ -48,12 +51,35 @@ export default {
 </script>
 
 <style>
+body{
+	padding:0;
+	margin:0;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 20px;
+}
+.app-index img{
+   width:50%;
+}
+.app-index{
+	margin:20px 0 10px;
+}
+h5{
+	margin:10px 0 20px;
+}
+.footer{
+	position: fixed;
+	width:100%;
+	bottom:0;
+	height:40px;
+	line-height: 40px;
+	background: #666;
+	color:#e5e5e5;
+
 }
 </style>

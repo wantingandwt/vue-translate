@@ -19,3 +19,6 @@ vue2.js中主要运用了组件（子传父，父传子）
 
 ```
 
+## 页面展示，实现在线翻译功能<br/>
+
+![](https://github.com/wantingandwt/vue-translate/blob/master/src/assets/title/home.png)  <br/>

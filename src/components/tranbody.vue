@@ -15,10 +15,12 @@ export default {
 
 <style scoped>
 #tranbody{
-  width:300px;
-  height:500px;
+  width:100%;
+  min-height:100px;
   border:1px solid #ddd;
   margin:30px auto;
-  padding:30px;
+  padding:10px;
+  text-align: left;
+  box-sizing: border-box
 }
 </style>
