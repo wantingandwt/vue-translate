@@ -27,14 +27,14 @@ export default {
   },
   methods:{
     formTextto:function(text,lang){
-	   let str1 = '20180724000188632'+text+'12345678'+'W3BUUQLCpUN8frSDXjDw';
+	   let str1 = '你的id'+text+'12345678'+'你的key';
 	   let signt=md5(str1);
 	   this.$http.jsonp('http://api.fanyi.baidu.com/api/trans/vip/translate',{
 								params:{
 									q:text,
 									from:'auto',
 									to:lang,
-									appid:'20180724000188632',
+									appid:'你的id',
 									salt:'12345678',
 									sign:signt
 								}

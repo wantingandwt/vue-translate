@@ -15,7 +15,7 @@ export default {
 
 <style scoped>
 #tranbody{
-  width:100%;
+  width:90%;
   min-height:100px;
   border:1px solid #ddd;
   margin:30px auto;

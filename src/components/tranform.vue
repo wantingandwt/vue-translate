@@ -43,7 +43,7 @@ export default {
 
 <style scoped>
 textarea{
-	width:100%;
+	width:90%;
 	border: 1px solid #ddd;
 	height: 100px;
 	padding:10px;
